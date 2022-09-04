@@ -1,0 +1,10 @@
+{
+	"name": "ln_kv_dev_cicd",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://kv-kjrdev.vault.azure.net/"
+		}
+	}
+}
