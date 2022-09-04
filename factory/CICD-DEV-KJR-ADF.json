@@ -1,0 +1,9 @@
+{
+	"name": "CICD-DEV-KJR-ADF",
+	"location": "uksouth",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b3e011a0-3f78-4b17-ba7c-290e9700a6c7",
+		"tenantId": "d18aea9b-5806-4335-a135-cdd3ee449dc9"
+	}
+}
