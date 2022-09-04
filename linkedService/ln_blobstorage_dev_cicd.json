@@ -1,0 +1,17 @@
+{
+	"name": "ln_blobstorage_dev_cicd",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "ln_kv_dev_cicd",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "blobstorage-dev-conn-str"
+			}
+		}
+	}
+}
